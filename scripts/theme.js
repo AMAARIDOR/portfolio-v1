@@ -1,7 +1,7 @@
-"use-strict";
+"use strict";
 
-lightSchemeIcon = document.querySelector("link#light-scheme-icon");
-darkSchemeIcon = document.querySelector("link#dark-scheme-icon");
+const lightSchemeIcon = document.querySelector("link#light-scheme-icon");
+const darkSchemeIcon = document.querySelector("link#dark-scheme-icon");
 
 function OnUpdate() {
   if (matcher.matches) {
@@ -13,6 +13,6 @@ function OnUpdate() {
   }
 }
 
-matcher = window.matchMedia("(prefers-color-scheme: dark)");
-matcher.addListener(OnUpdate);
+const matcher = window.matchMedia("(prefers-color-scheme: dark)");
+matcher.addEventListener("change", OnUpdate);
 OnUpdate();
