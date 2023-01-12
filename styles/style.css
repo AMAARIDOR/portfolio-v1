@@ -24,7 +24,7 @@ p {
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 25px;
+  padding: 0;
   font-size: 25px;
 }
 
@@ -62,6 +62,11 @@ footer ul {
   font-style: italic;
 }
 
+header {
+  padding: 50px;
+  height: 75px;
+}
+
 footer {
   background-color: black;
   padding: 50px;
@@ -71,20 +76,19 @@ footer {
 #photo {
   height: 400px;
   width: auto;
-  display: block;
-}
-
-.left-div {
-  float: left;
-  width: 50%;
-}
-
-.right-div {
-  float: right;
-  width: 50%;
 }
 
 section {
-  padding: 60px;
+  padding: 100px;
   font-size: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.left-div {
+  padding: 0 50px;
+}
+
+.right-div {
+  padding: 0 50px;
 }
