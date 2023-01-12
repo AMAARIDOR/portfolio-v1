@@ -5,7 +5,7 @@
 body {
   padding: 0;
   margin: 0;
-  background-color: #fffbeb;
+  background-color: #faedf0;
 }
 
 .navbar-logo {
@@ -17,12 +17,13 @@ body {
   font-size: 30px;
 }
 
+h1,
 h2 {
-  color: #251749;
+  color: #161853;
 }
 
 p {
-  color: #263159;
+  color: #292c6d;
 }
 
 ul {
@@ -45,7 +46,7 @@ li a {
 }
 
 header li a {
-  color: black;
+  color: #161853;
 }
 
 footer li a {
@@ -98,9 +99,9 @@ section {
 }
 
 .skill {
-  border: 2px solid #251749;
-  background-color: #495579;
-  color: #fffbeb;
+  border: 2px solid #161853;
+  background-color: #b4b4b4;
+  color: #161853;
   font-weight: 300;
   padding: 10px;
   margin: 10px;
