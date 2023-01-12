@@ -5,10 +5,20 @@
 body {
   padding: 0;
   margin: 0;
+  background-color: #d6e4e5;
 }
 
 .navbar-logo {
   height: 75px;
+}
+
+#logo-text {
+  font-weight: 600;
+  font-size: 30px;
+}
+
+p {
+  color: #497174;
 }
 
 ul {
@@ -59,5 +69,22 @@ footer {
 }
 
 #photo {
-  height: 350px;
+  height: 400px;
+  width: auto;
+  display: block;
+}
+
+.left-div {
+  float: left;
+  width: 50%;
+}
+
+.right-div {
+  float: right;
+  width: 50%;
+}
+
+section {
+  padding: 60px;
+  font-size: 30px;
 }
