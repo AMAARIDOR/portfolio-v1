@@ -92,3 +92,19 @@ section {
 .right-div {
   padding: 0 50px;
 }
+
+.skill {
+  border: 2px solid #497174;
+  background-color: #bcd3d4;
+  color: #2c4446;
+  font-weight: 300;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+#skill-list {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
